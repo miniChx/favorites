@@ -16,6 +16,7 @@
 > API的区别
 
 ```javascript
+
 function my_func(item) {
   if (item == 1) {
     console.log('t');
@@ -31,6 +32,7 @@ arr = [0,1,2,3,4]
 // print: f,t,f,f,f
 // return:[false, true, false, false, false]
 arr.map(my_func)
+
 
 // print: f,t,f,f,f
 // return: 1
