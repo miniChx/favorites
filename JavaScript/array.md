@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Array：some(),every(),forEach(),map(),filter()区别
 > 此篇记录了JS在1.6中为Array新增的几个方法map()，filter()，some()，every()，forEach()
 
@@ -16,6 +17,26 @@
 ###### > API的区别
 
 ```javascript
+=======
+JS中some(),every(),forEach(),map(),filter()区别
+JS在1.6中为Array新增了几个方法map()，filter()，some()，every()，forEach()，也就是一共有这么多方法了。
+
+刚开始接触这些倒也记得不是很清楚，在此纪录一下以加深影响。我主要从两个角度来理解和记忆吧，一个是API的使用，一个是内部实现。
+
+函数简述
+
+map():返回一个新的Array，每个元素为调用func的结果
+
+filter():返回一个符合func条件的元素数组
+
+some():返回一个boolean，判断是否有元素是否符合func条件
+
+every():返回一个boolean，判断每个元素是否符合func条件
+
+forEach():没有返回值，只是针对每个元素调用func
+
+API的区别
+>>>>>>> 1390a50892b14462f206fffd4104630c413231b3
 function my_func(item) {
   if (item == 1) {
     console.log('t');
@@ -26,6 +47,7 @@ function my_func(item) {
 }
 
 // init an array
+<<<<<<< HEAD
 arr = [0,1,2,3,4]
 
 // print: f,t,f,f,f
@@ -51,6 +73,34 @@ arr.forEach(my_func)
 ###### > 内部实现
 
 ```javascript
+=======
+l = [0,1,2,3,4]
+
+// print: f,t,f,f,f
+// return:[false, true, false, false, false]
+l.map(my_func)
+
+
+// print: f,t,f,f,f
+// return: 1
+l.filter(my_func)
+
+// print: f,t
+// return: true
+l.some(my_func)
+
+// print: f
+// return: false
+l.every(my_func)
+
+// print: f,t,f,f,f
+//return: undefined
+l.forEach(my_func)
+内部实现
+
+// From：http://developer.mozilla.org
+
+>>>>>>> 1390a50892b14462f206fffd4104630c413231b3
 Array.prototype.map = function(fun /*, thisp*/)
 {
   var len = this.length;
@@ -134,4 +184,7 @@ Array.prototype.forEach = function(fun /*, thisp*/)
       fun.call(thisp, this[i], i, this);
   }
 };
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 1390a50892b14462f206fffd4104630c413231b3
