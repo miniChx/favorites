@@ -1,7 +1,7 @@
 ### Array：some(),every(),forEach(),map(),filter()区别
-> 此篇记录了JS在1.6中为Array新增的几个方法map()，filter()，some()，every()，forEach()
+*此篇记录了JS在1.6中为Array新增的几个方法map()，filter()，some()，every()，forEach()*
 
-###### > 函数简述
+> 函数简述
 
 - map()：返回一个新的Array，每个元素为调用func的结果
 
@@ -13,7 +13,7 @@
 
 - forEach()：没有返回值，只是针对每个元素调用func
 
-###### > API的区别
+> API的区别
 
 ```javascript
 function my_func(item) {
@@ -48,7 +48,7 @@ arr.every(my_func)
 //return: undefined
 arr.forEach(my_func)
 ```
-###### > 内部实现
+> 内部实现
 
 ```javascript
 Array.prototype.map = function(fun /*, thisp*/)
