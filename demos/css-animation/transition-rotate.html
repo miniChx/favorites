@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>css动画-旋转</title>
+	<style>
+	.box{ 
+		width:200px;
+		height:200px;
+		left:100px;
+		top:100px;
+		position:relative;
+		word-wrap:break-word;
+		overflow:hidden;
+	}
+	.black{
+		background:#000; 
+		width:100%; height:100%; 
+		position:absolute;
+		-webkit-transition:all 1s; 
+		-webkit-transform-origin:left top;
+	}
+	.box:hover
+	.black{
+		-webkit-transform: rotate(90deg)
+	}
+</style>
+</head>
+<body>
+	<div class="box">
+		<div class="black"></div>
+	</div>
+</body>
+</html>
