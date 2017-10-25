@@ -24,5 +24,5 @@ html：
 	  <tr><td>内容</td><td>内容</td><td>内容</td><td>内容</td><td>内容</td></tr>
 	</table>
 ```
-效果如图：
+效果如图：<br/>
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/css-table.jpg)
