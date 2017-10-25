@@ -7,7 +7,7 @@ text-overflow:ellipsis;
 white-space: nowrap;
 ```
 效果如图：<br/>
-![Alt text](http://www.daqianduan.com/wp-content/uploads/2015/10/dome1.png)
+![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/text-overflow1.jpg)
 <br/>
 
 >多行文本 溢出显示省略号
@@ -19,7 +19,7 @@ display: -webkit-box;
 overflow: hidden;
 ```
 效果如图：<br/>
-![Alt text](http://www.daqianduan.com/wp-content/uploads/2015/10/dome2.png)
+![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/text-overflow2.jpg)
 <br/>
 适用范围：
 因使用了WebKit的CSS扩展属性，该方法适用于WebKit浏览器及移动端；
@@ -51,7 +51,7 @@ p::after{
 }
 ```
 效果如图：<br/>
-![Alt text](http://www.daqianduan.com/wp-content/uploads/2015/10/dome3.png)
+![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/text-overflow3.jpg)
 <br/>
 适用范围：
 该方法适用范围广，但文字未超出行的情况下也会出现省略号,可结合js优化该方法。
