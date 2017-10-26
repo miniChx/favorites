@@ -353,7 +353,7 @@
 }
 ```
 
-![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/infinity .jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/infinity.jpg)
 
 ```css
 #infinity {
