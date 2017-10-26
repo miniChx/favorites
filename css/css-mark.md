@@ -1,6 +1,6 @@
 #### 用 CSS 实现一些简单的效果
 - [三角形（各种角度）](#triangle)
-- 平行四边形{#parallelogram}
+- [平行四边形](#parallelogram "平行四边形")
 - border-radius
 
 ###### [三角形（各种角度）](#triangle)
