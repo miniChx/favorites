@@ -1,5 +1,4 @@
-#### 用 CSS 实现一些简单的效果
-<<<<<<< HEAD
+### 用 CSS 实现一些简单的效果
 - [三角形](#三角形 "三角形")
 - [平行四边形](#平行四边形 "平行四边形")
 - [利用border-radius属性绘制一些形状](#border-radius)
@@ -18,16 +17,6 @@
 </div>
 ```
 ###### css
-=======
-- [三角形（各种角度）](#triangle)
-- [平行四边形](#parallelogram "平行四边形")
-- border-radius
-
-###### [三角形（各种角度）](#triangle)
-
-![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-up.jpg)
-
->>>>>>> a3ec790154b0d5ae77b142e6b6958b274d6c5d8d
 ```css
 /*向上*/
 .triangle_border_up{
