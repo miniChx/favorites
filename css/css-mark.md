@@ -1,6 +1,9 @@
 #### 用 CSS 实现一些简单的效果
+- [三角形（各种角度）](#triangle)
+- [平行四边形](#parallelogram)
+- border-radius
 
-###### 三角形（各种角度）
+###### [三角形（各种角度）](#triangle)
 
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-up.jpg)
 
@@ -13,7 +16,7 @@
     border-bottom: 100px solid red;
 }
 ```
-<br/>
+
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-down.jpg)
 
 ```css
@@ -25,9 +28,9 @@
     border-top: 100px solid red;
 }
 ```
-<br/>
+
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-left.jpg)
-<br/>
+
 ```css
 .triangle-left {
     width: 0;
@@ -39,7 +42,7 @@
 ```
 
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-right.jpg)
-<br/>
+
 ```css
 .triangle-right {
     width: 0;
@@ -62,7 +65,7 @@
 ```
 
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-topright.jpg)
-<br/>
+
 ```css
 .triangle-topright {
     width: 0;
@@ -71,8 +74,9 @@
     border-left: 100px solid transparent;
 }
 ```
+
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-bottomleft.jpg)
-<br/>
+
 ```css
 .triangle-bottomleft {
     width: 0;
@@ -81,8 +85,9 @@
     border-right: 100px solid transparent;
 }
 ```
+
 ![Aaron Swartz](https://raw.githubusercontent.com/miniChx/favorites/master/css/imgs/mark/triangle-bottomright.jpg)
-<br/>
+
 ```css
 .triangle-bottomright {
     width: 0;
@@ -94,4 +99,4 @@
 
 
 
-###### 平行四边形
+###### [平行四边形](#parallelogram)
