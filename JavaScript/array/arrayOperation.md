@@ -20,19 +20,19 @@ var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　创建一
 
 ```javascript
 //  将一个或多个新元素添加到数组结尾，并返回数组新长度
-arrayObj. push([
-	item1 [
-		  item2 [. . . [itemN ]]
-	]
+arrayObj.push([
+ item1 [
+  item2 [. . . [itemN]]
+ ]
 ]);
 ```
 
 ```javascript
 // 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度
 arrayObj.unshift([
-	item1 [
-		item2 [. . . [itemN ]]
-	]
+ item1 [
+  item2 [. . . [itemN]]
+ ]
 ]);
 ```
 
