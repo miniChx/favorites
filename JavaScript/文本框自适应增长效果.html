@@ -1,0 +1,19 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title>文本框自适应增长效果</title>
+</head>
+<script type="text/javascript">
+	function changeInputlength(cursor){
+		var getcount=document.getElementById("countFont");
+		var getText=document.getElementById("text");
+		getcount.innerHTML='<font>第'+(parseInt(getText.value.length)+1)+'个字符</font>';
+		cursor.size=getText.value.length+2;
+	}
+</script>
+<body>
+	<span>在这个文本框中输入字符看效果：</span>
+	<input type="text" size="3" id="text" onkeydown="changeInputlength(this);"/>
+	<span id="countFont"></span>
+</body>
+</html>
