@@ -1,3 +1,4 @@
+```
 //----------------------------------------------------------
 //  功能：根据身份证号获得出生日期
 //  参数：身份证号 psidno
@@ -17,7 +18,8 @@
     var birthday=birthdayno.substring(0,4)+"-"+birthdayno.substring(4,6)+"-"+birthdayno.substring(6,8)
     return birthday    
 }
-
+```
+```
 //----------------------------------------------------------
 //  功能：根据身份证号获得性别
 //  参数：身份证号 psidno
@@ -41,3 +43,4 @@ function Getsex(psidno){
     }
     return sex
 }
+```
